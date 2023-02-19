@@ -16,7 +16,7 @@ export default function Admin() {
     const getData = () => {
       fetch("/api/admin")
         .then((res) => res.json())
-        .then((dataa) => setData(dataa));
+        .then((dataa) => setData(dataa.data.data.listPosts.items));
     };
     getData();
   }, []);
@@ -44,7 +44,12 @@ export default function Admin() {
         />
         {data
           ? data.map((d) => {
-              return <div>{d.title}</div>;
+              return (
+                <div>
+                  <h1>{d.title}</h1>
+                  <p>{d.description}</p>
+                </div>
+              );
             })
           : ""}
         <button type="submit">Submit</button>

@@ -1,0 +1,7 @@
+{
+    "AppSyncApiName": "tails",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "S3DeploymentBucket": "amplify-tails-dev-113937-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/2678b0539fca043a286dccd3e6b3d3165e1612b1"
+}

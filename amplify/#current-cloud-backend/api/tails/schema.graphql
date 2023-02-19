@@ -1,0 +1,7 @@
+# This "input" configures a global authorization rule to enable public access to
+
+type Post @model {
+  id: ID!
+  title: String!
+  description: String!
+}

@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tails-dev-113937-authRole",
+      "UnauthRoleArn": "arn:aws:iam::945356219142:role/amplify-tails-dev-113937-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::945356219142:role/amplify-tails-dev-113937-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-tails-dev-113937-deployment",
+      "UnauthRoleName": "amplify-tails-dev-113937-unauthRole",
+      "StackName": "amplify-tails-dev-113937",
+      "StackId": "arn:aws:cloudformation:us-east-1:945356219142:stack/amplify-tails-dev-113937/62a00180-b07c-11ed-8eaf-0e7c67f970e5",
+      "AmplifyAppId": "d2uykbkyoh6hmc"
+    }
+  },
+  "api": {
+    "tails": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            }
+          },
+          "additionalAuthenticationProviders": []
+        },
+        "GraphQLAPIIdOutput": "k5wqnlssrben7bz47yhatsvbay",
+        "GraphQLAPIEndpointOutput": "https://szcvwjr345eszdnsjoa65l4lxm.appsync-api.us-east-1.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-lcg27wwzt5apjmy5jaukrvh24i"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-tails-dev-113937-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apitails"
+      },
+      "lastPushTimeStamp": "2023-02-19T19:13:39.241Z",
+      "lastPushDirHash": "MH6T+0qu28csn4dj91YeubU5N28="
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "providerPlugin": "awscloudformation",
+      "type": "manual",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-tails-dev-113937-deployment/amplify-cfn-templates/hosting/amplifyhosting-template.json",
+        "logicalId": "hostingamplifyhosting"
+      },
+      "lastPushTimeStamp": "2023-02-19T19:13:39.242Z",
+      "output": {},
+      "lastPushDirHash": "mzC7keLXnqmkSTzPqkWbSpEYa/s="
+    }
+  }
+}
