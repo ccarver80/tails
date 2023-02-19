@@ -1,0 +1,7 @@
+.header {
+  @apply flex justify-between w-3/4 mx-auto h-52;
+}
+
+.header__image {
+  @apply object-contain scale-75;
+}

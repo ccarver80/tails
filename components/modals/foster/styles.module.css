@@ -1,0 +1,31 @@
+.foster {
+  @apply p-2 bg-white lg:p-10;
+}
+
+.foster__header {
+  @apply flex flex-col mx-auto mt-10;
+}
+
+.foster__header h1 {
+  @apply mx-auto mt-10 text-4xl lg:text-8xl;
+}
+
+.foster__description {
+  @apply flex flex-col mx-auto mt-10 text-3xl text-pink-500;
+}
+
+.foster__description ul {
+  @apply mt-10;
+}
+
+.foster__description li {
+  @apply mt-2 text-xl text-black;
+}
+
+.foster__form {
+  @apply grid grid-cols-2 gap-5 mx-auto mt-5 lg:w-1/2;
+}
+
+.foster__form h3 {
+  @apply mx-auto text-4xl text-pink-500;
+}

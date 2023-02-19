@@ -1,0 +1,7 @@
+.admin {
+  @apply flex h-screen;
+}
+
+.admin form {
+  @apply mx-auto my-auto;
+}

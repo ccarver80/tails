@@ -1,0 +1,19 @@
+.adoptMain {
+  @apply flex flex-col;
+}
+
+.adoptMain__main {
+  @apply flex flex-col;
+}
+
+.adoptMain__buttonContainer {
+  @apply flex flex-col items-center w-3/4 mx-auto my-auto mt-10 h-96 lg:flex-row;
+}
+
+.adoptMain__logo {
+  @apply flex flex-col scale-50 gap-y-5;
+}
+
+.adoptMain__buttonContainer button {
+  @apply p-5 text-2xl text-white bg-pink-500 rounded-xl hover:bg-white hover:text-black;
+}

@@ -1,0 +1,10 @@
+.navBar__desktop {
+  @apply hidden lg:justify-between lg:flex lg:flex-row lg:w-3/4 lg:mx-auto;
+}
+
+.navBar__mobile {
+  @apply mx-auto lg:hidden w-max;
+}
+.navBar button {
+  @apply p-3 mx-auto my-auto text-xl text-pink-600 w-fit hover:bg-pink-600 h-fit rounded-xl hover:text-white;
+}
